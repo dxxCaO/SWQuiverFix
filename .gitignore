@@ -1,0 +1,20 @@
+# 编译产物
+out/
+*.class
+
+# 第三方编译依赖（forge / launchwrapper / asm，见 README 获取方式）
+lib/
+
+# 构建出的 jar（如需分发请用 GitHub Releases）
+*.jar
+
+# 历史分析记录 / 备份
+backup-old-jar/
+lcl*.txt
+
+# IDE / 系统文件
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
